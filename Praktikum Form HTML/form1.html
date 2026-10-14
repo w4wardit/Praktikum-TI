@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Praktikum 2: Form Pemesanan</title>
+</head>
+<body>
+
+    <center>
+        <h2>Praktikum 2: HTML Form</h2>
+    </center>
+
+    <table border="1" width="800" align="center" cellpadding="8">
+        <tr>
+            <td>
+                <center>
+                    <b>A Web Page Pemesanan</b>
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <center>
+                    <a href="form1.html">Home</a>
+                    &nbsp; | &nbsp;
+                    <a href="form1.html">Generate Link</a>
+                    &nbsp; | &nbsp;
+                    <a href="form2.html">Transaction History</a>
+                    &nbsp; | &nbsp;
+                    <a href="form2.html">Policy</a>
+                    &nbsp; | &nbsp;
+                    <a href="form2.html">Logout</a>
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form action="form2.html" method="get">
+                    <table width="100%" cellpadding="5">
+                        <tr>
+                            <td width="25%" valign="top">
+                                <img src="gambar form/rog laptop.webp"
+                                     alt="Gambar Barang"
+                                     width="150"
+                                     height="150">
+                                <br><br>
+
+                                <input type="file"
+                                       name="gambar"
+                                       accept="image/*">
+                            </td>
+
+                            <td valign="top">
+                                <table cellpadding="4" width="100%">
+                                    <tr>
+                                        <td width="35%">Title Here :</td>
+                                        <td>
+                                            <input type="text"
+                                                   name="judul"
+                                                   value=""
+                                                   size="35"
+                                                   required>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td valign="top">Description :</td>
+                                        <td>
+                                            Year :
+                                            <input type="text"
+                                                   name="tahun"
+                                                   value=""
+                                                   size="20">
+                                            <br>
+                                            Model :
+                                            <input type="text"
+                                                   name="model"
+                                                   value=""
+                                                   size="20">
+                                            <br>
+                                            Condition :
+                                            <input type="text"
+                                                   name="kondisi"
+                                                   value=""
+                                                   size="20">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Account Number :</td>
+                                        <td>
+                                            <input type="text"
+                                                   name="nomor_akun"
+                                                   value=""
+                                                   size="35"
+                                                   required>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Bank :</td>
+                                        <td>
+                                            <select name="bank">
+                                                <option value="HSBC">HSBC</option>
+                                                <option value="BCA">BCA</option>
+                                                <option value="BRI">BRI</option>
+                                                <option value="BNI">BNI</option>
+                                                <option value="Mandiri">Mandiri</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Account Holder :</td>
+                                        <td>
+                                            <input type="text"
+                                                   name="pemilik"
+                                                   value=""
+                                                   size="35"
+                                                   required>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Transaction :</td>
+                                        <td>
+                                            <select name="jumlah">
+                                                <option value="1">1 Person</option>
+                                                <option value="2">2 Persons</option>
+                                                <option value="3">3 Persons</option>
+                                                <option value="4">4 Persons</option>
+                                                <option value="5">5 Persons</option>
+                                            </select>
+
+                                            <br>
+                                            <small>
+                                                * If the transaction is for
+                                                3 persons, choose 3 from
+                                                the drop-down list.
+                                            </small>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <input type="checkbox"
+                                                   name="kirim_hp"
+                                                   value="Ya"
+                                                   checked>
+                                            Send to Mobile Phone
+                                            <br>
+
+                                            <input type="checkbox"
+                                                   name="kirim_email"
+                                                   value="Ya"
+                                                   checked>
+                                            Send to Email
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Send to Mobile Phone :</td>
+                                        <td>
+                                            <input type="tel"
+                                                   name="telepon"
+                                                   value=""
+                                                   size="35">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Send to Email :</td>
+                                        <td>
+                                            <input type="email"
+                                                   name="email"
+                                                   value="contoh@email.com"
+                                                   size="35">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <br>
+                                            <input type="submit"
+                                                   value="Generate Nabr Link">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
