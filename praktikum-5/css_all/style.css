@@ -1,0 +1,19 @@
+img {
+    width : 50px;
+   margin-right: 300px;
+}
+
+header {
+    margin : -16 -8px;
+    background-color: rgb(96, 145, 251);
+}
+header ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding : 4px;
+}
+
+li {
+    margin : 2px 7px;
+}

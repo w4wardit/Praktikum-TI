@@ -1,0 +1,58 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+
+nav {
+  background-color: lightblue;
+  width: 200px;
+  padding: 20px;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+header {
+  background-color: rgb(249, 190, 117);
+  padding: 20px;
+  text-align: center;
+}
+
+
+.row {
+  display: flex;
+  flex: 1;
+  min-height: 400px;
+}
+
+article {
+  background-color: rgb(255, 107, 107);
+  flex: 3;
+  padding: 20px;
+}
+
+aside {
+  background-color: rgb(255, 168, 182);
+  flex: 1;
+  padding: 20px;
+}
+
+
+footer {
+  background-color: rgb(255, 200, 134);
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+
+.row div {
+  flex: 1;
+  min-width: 0;
+  background-color: grey;
+  border: 2px solid black;
+  height: 30px;
+  text-align: center;
+}

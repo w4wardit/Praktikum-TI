@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+.row {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.atas-kuning {
+    float: left;
+    width: 19%;
+    height: 65px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.atas-oranye {
+    float: right;
+    width: 79.5%;
+    height: 65px;
+    background-color: #f46524;
+    border: 1px solid black;
+}
+
+
+.tengah-hijau {
+    float: left;
+    width: 19%;
+    height: 360px;
+    background-color: #a8d08d;
+    border: 1px solid black;
+    margin-right: 1.5%;
+}
+
+.tengah-abu {
+    float: left;
+    width: 59%;
+    height: 360px;
+    background-color: #d9d9d9;
+    border: 1px solid black;
+}
+
+.tengah-biru-muda {
+    float: right;
+    width: 19%;
+    height: 360px;
+    background-color: #54d2f7;
+    border: 1px solid black;
+}
+
+
+.footer-biru-tua {
+    width: 100%;
+    height: 65px;
+    background-color: #1167f2;
+    border: 1px solid black;
+}
