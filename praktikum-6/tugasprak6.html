@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 6</title>
+</head>
+<body>
+    <h2> Tugas Praktikum 6 UIUX</h2>
+    <P> liat console pencet f12 aja yaa</P>
+
+    <script>
+         const nama = "radith";
+        let umur = 18;
+        let nilai1 = 90;
+        let aktif = true;
+        
+        console.log("Nama:", nama)
+        console.log("Umur:", umur)
+        console.log("Nilai Awal:", nilai1)
+        console.log("Status Aktif:", aktif)
+        console.log("Tipe Nilai:", typeof nilai1)
+
+        const tugas = 80;
+        const uts = 70;
+        const uas = 90;
+        const akhir = tugas * 0.30+uts * 0.30+ uas*0.40;
+        console.log("Nilai akhir: ", akhir)
+
+        let kategori;
+        if (akhir >= 85) {
+            kategori="A"
+        } else if (akhir >= 70){
+            kategori="B"
+        } else if (akhir >= 60){
+            kategori="C"
+        } else{
+            kategori="D";
+        }
+
+        console.log("Kategori: ", kategori)
+         if (akhir>=60){
+            console.log("LULUSS!")
+         } else{
+            console.log("TIDAK LULUS!")
+         }
+    </script>
+</body>
+</html>
